@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/getStartedFragment">
+
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.eduteam5.englijet.getstarted.GetStartedFragment"
+        android:label="get_started_fragment"
+        tools:layout="@layout/get_started_fragment" />
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.eduteam5.englijet.question.QuestionFragment"
+        android:label="question_fragment"
+        tools:layout="@layout/question_fragment" />
+</navigation>
